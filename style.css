@@ -1,0 +1,314 @@
+body{
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "aleft section aright"
+    "footer footer footer"
+    ;
+    grid-template-columns: 250px auto 200px;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 0;
+	margin: 0;
+	
+}
+
+#bg-image{
+    background: url(img/fon_1920x1080.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#bg-image2{
+    background: url(img/fon_1920x1080.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.color {
+    background-color: whitesmoke;
+   }
+
+.text-info{
+    text-align: center;
+} 
+
+.logo{
+    float: left;
+}
+
+.container-bar{
+    margin-left: 280px;
+}
+
+#my-nav{
+    margin-left: 120px;
+}
+
+.bg-custom{
+    background: rgba(7, 7, 7, 0.014);
+}
+
+.logo .fast{
+    align-items: center; 
+    image-rendering: optimizeSpeed;
+}
+
+.container-one{
+    background-color: whitesmoke;
+    margin-left: 150px;
+}
+
+.parallax {
+    background-image:  url("img/5.png");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+
+section{
+    background: whitesmoke;
+    grid-area: section;
+    padding: 20px;
+    font-size: 1em;
+    text-align: justify;
+    background-color: whitesmoke;
+}
+
+.continutul{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+
+}
+
+.continutul{
+    color: #3d5975;
+}
+
+#picture{
+    position: relative;
+    text-align: center;
+}
+
+.container h2:first-child{
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container h3{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+}
+
+.container p{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.container .content{
+    text-align: center;
+    margin-top: -450px;
+    margin-left: 550px;
+    font-family: 'Tangerine', serif;
+    font-size: 19px;
+}
+
+.image{ 
+    margin-bottom: 140px;
+    position:relative;
+    top: 0;
+}
+
+.container .image-two{
+    margin-bottom: 140px;
+    margin-left: 850px;
+    position:relative;
+    top: 0;
+    
+}
+
+.container .content-two{
+    text-align: center;
+    margin-top: -330px;
+    margin-left: -550px;
+    font-family: 'Tangerine', serif;
+    font-size: 19px;
+}
+
+.content-three{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 19px;
+}
+
+.content-four h3{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 33px;
+}
+
+.content-four .text{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+}
+
+.thumb{
+    margin-left: 500px;
+}
+
+.form{
+    background-color: whitesmoke;
+    text-align: justify;
+    max-inline-size: 70%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #1a252f;
+    color: whitesmoke;
+}
+  
+.copyright {
+    background-color: #1a252f;
+}
+
+.fa-facebook-f{
+    color: royalblue;
+}
+
+.fa-twitter{
+    color: skyblue;
+}
+
+.fa-linkedin-in{
+    color: #4C6EF5;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+nav{
+    background: #1a252f; /* Задаем основной фон меню */
+    padding: 0 15% /* Задаем внутренние отступы */
+}
+    
+nav ul {
+    list-style: none; /* Убираем маркер для элементов списка */
+}
+    
+nav ul li {
+    display:inline-block;/*Выстраиваем пункты меню в ряд по горизонтали */
+}
+
+nav ul li a {
+    display:block; /* Настраиваем оформление пунктов меню */
+    padding: 15px 20px;
+    font-size: .9em;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    
+nav ul li:hover {
+    background: whitesmoke; /* Меняем фон пункта меню при наведении указателя мыши */
+}
+    
+nav ul li ul {
+    display: none; /* Прячем пункты выпадающего блока меню */
+    position:absolute;
+}
+    
+nav ul li:hover ul {
+    display:block; /* Отображаем подменю при наведении мыши */
+}
+    
+nav ul li ul li {
+    display:block; /* Выстраиваем по вертикали пункты выпадающего меню */
+}
+
+.text-info {
+        background-color: whitesmoke;
+        border-image: round;
+        margin: auto;
+        padding: 0;
+        
+}
+
+
+.copyright-form h6{
+    text-align: center;
+    margin-left: -210%;
+}
+
+.whatsApp{
+    position: fixed;
+    width: 60px;
+    height: 120px;
+    bottom: 0px;
+    right: 30px;
+    color:#FFF;
+    text-align: center;
+}
+
+.myBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 32px;
+    z-index: 100;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: green;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 1px;
+    background-color: none;
+}
+
+.myBtn button{
+    background-color: none;
+}
+
+.thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+}
+
+.form-group{
+    font-size: 15px;   
+}
+
+
+
+
